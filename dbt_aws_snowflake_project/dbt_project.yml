@@ -16,5 +16,14 @@ models:
     bronze:
       +materialized: table
       +schema: bronze_layer
+    silver:
+      +materialized: table
+      +schema: silver_layer
+    gold:
+      +materialized: table
+      +schema: gold_layer
+    dimensions:
+      +materialized: table
+      +schema: gold_layer
 
     
