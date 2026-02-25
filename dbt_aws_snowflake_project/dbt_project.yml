@@ -5,11 +5,14 @@ profile: dbt_aws_snowflake_project
 seed-paths: ["seeds"]
 model-paths: ["models"]
 macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]
 
 target-path: "target"
 clean-targets:
   - "target"
   - "dbt_packages"
+
 
 models:
   dbt_aws_snowflake_project:
