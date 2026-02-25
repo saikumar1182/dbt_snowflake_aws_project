@@ -1,0 +1,8 @@
+{
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dbt_project-latest.json": "file:///Volumes/Usage/dbt_snowflake_aws_project/dbt_aws_snowflake_project/dbt_project.yml"
+    },
+    "dbt.path": "/Volumes/Usage/dbt_snowflake_aws_project/.venv/bin/dbt",
+    "dbt.enableNewLineagePanel": true,
+    "dbt.perspectiveTheme": "Pro Dark"
+}
