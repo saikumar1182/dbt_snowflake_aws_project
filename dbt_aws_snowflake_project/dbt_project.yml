@@ -1,0 +1,20 @@
+name: dbt_aws_snowflake_project
+
+profile: dbt_aws_snowflake_project
+
+seed-paths: ["seeds"]
+model-paths: ["models"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  dbt_aws_snowflake_project:
+    bronze:
+      +materialized: table
+      +schema: bronze_layer
+
+    
