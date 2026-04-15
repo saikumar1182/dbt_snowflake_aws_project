@@ -10,6 +10,8 @@ The pipeline processes sample Airbnb listings, bookings, and hosts data through 
 Source Data (CSV) → AWS S3 → Snowflake (Staging) → Bronze Layer (Raw Tables) → Silver Layer (Cleaned Data) → Gold Layer (Analytics)
 ```
 
+![Data Flow Architecture](images/data_flow_arch.png)
+
 ## Technology Stack
 
 * Cloud Data Warehouse: Snowflake
